@@ -76,9 +76,6 @@ class Intro extends StatelessWidget {
             <Widget>[
               Expanded(
                 child: CustomElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.yellow[600], elevation: 0),
-                    context: context,
                     onPressed: () =>
                         Navigator.pushNamed(context, '/dashboard'),
                     child: const Text("Next",
